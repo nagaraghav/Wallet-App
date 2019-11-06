@@ -158,7 +158,7 @@ class AccountViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
             }
             
             print(response)
-            
+           
             var newAmt = self.walletObj?.accounts[index].amount ?? 0.00
             self.accTotal.text = "$\(newAmt)"
             
@@ -208,7 +208,7 @@ class AccountViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
             
             print(response)
             
-            var amt = self.walletObj?.accounts[index].amount
+            var amt = walletObj.accounts[index].amount
             self.accTotal.text = "$\(amt)"
             
         }
