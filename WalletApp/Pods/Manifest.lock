@@ -1,0 +1,25 @@
+PODS:
+  - Gradients (0.3.0)
+  - PhoneNumberKit (3.0.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.0.0)
+    - PhoneNumberKit/UIKit (= 3.0.0)
+  - PhoneNumberKit/PhoneNumberKitCore (3.0.0)
+  - PhoneNumberKit/UIKit (3.0.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+
+DEPENDENCIES:
+  - Gradients
+  - PhoneNumberKit
+
+SPEC REPOS:
+  trunk:
+    - Gradients
+    - PhoneNumberKit
+
+SPEC CHECKSUMS:
+  Gradients: d7e1be639692b86577616ee55ea96f54fb5f1de1
+  PhoneNumberKit: 86019c972ef6904bcad11b46a6b8a91184d51117
+
+PODFILE CHECKSUM: 34ebf1ee3e681fdbdb039b21a28ef77fc9778b54
+
+COCOAPODS: 1.8.3

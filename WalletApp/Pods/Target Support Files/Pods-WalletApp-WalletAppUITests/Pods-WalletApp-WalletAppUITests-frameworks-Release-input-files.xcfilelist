@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-WalletApp-WalletAppUITests/Pods-WalletApp-WalletAppUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Gradients/Gradients.framework
+${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework

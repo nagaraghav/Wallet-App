@@ -114,6 +114,8 @@ struct Api {
                 parameters: ["accounts": serverAccounts],
                 completion: completion)
     }
+    
+    
     static func withdraw(wallet: Wallet, fromAccountAt accountIndex: Int, amount: Double, completion: @escaping ApiCompletion) {
         wallet.accounts[accountIndex].amount -= amount
         wallet.totalAmount -= amount
